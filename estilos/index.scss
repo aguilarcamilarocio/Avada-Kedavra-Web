@@ -5,15 +5,11 @@
 }
 
 /*----------header----------*/
-<<<<<<< HEAD
 .fondo {
     background-image: url(../imagenes/fondo-contacto.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
 }
-=======
-
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 
 .titulo-principal {
     background-color: black;
@@ -37,11 +33,7 @@
 .navbar-nav {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     width: 100%;
-=======
-    width: 100%
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 }
 
 .navbar-nav a {
@@ -76,11 +68,7 @@
 /*-----------------principal index-----------*/
 .titulos1 {
     display: flex;
-<<<<<<< HEAD
     background: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
-=======
-    background-color: #e6e6e6;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
     color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
@@ -93,7 +81,6 @@
     width: 80px;
 }
 
-<<<<<<< HEAD
 .recomendaciones {
     box-sizing: border-box;
     color: rgb(0, 0, 0);
@@ -101,16 +88,6 @@
     box-sizing: border-box;
     margin-top: 50px;
     margin-bottom: 50px;
-=======
-
-
-
-.recomendaciones {
-    color: rgb(0, 0, 0);
-    background-color: #ffc6f6;
-    box-sizing: border-box;
-    margin-top: 20px;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 
     p {
         font-size: 40px;
@@ -141,11 +118,6 @@
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 .index-imagenes {
     display: flex;
     flex-wrap: wrap;
@@ -155,7 +127,6 @@
     width: 550px;
 }
 
-<<<<<<< HEAD
 .estilos-imagenes {
     padding: 30px;
     width: 80%;
@@ -164,8 +135,6 @@
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.2);
 }
-=======
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 
 @media (max-width: 576px) {
     .estilos-imagenes div {
@@ -214,12 +183,8 @@
 
 .visita-nuestra {
     color: rgb(0, 0, 0);
-<<<<<<< HEAD
     background-color: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
 
-=======
-    background-color: #fcb6f1;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 }
 
 .visita-nuestra p {
@@ -303,11 +268,7 @@
 /*--------------footer----------------*/
 
 .footer {
-<<<<<<< HEAD
     background: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
-=======
-    background: #ffc6f6;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
     color: rgb(0, 0, 0);
 }
 

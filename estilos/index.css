@@ -6,15 +6,12 @@
 }
 
 /*----------header----------*/
-<<<<<<< HEAD
 .fondo {
   background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
 
-=======
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 .titulo-principal {
   background-color: black;
   padding: 0px 0px 5px;
@@ -75,11 +72,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
   background: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
-=======
-  background-color: #e6e6e6;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
   color: black;
   font-size: 30px;
   font-family: 'Roboto Slab', serif;
@@ -92,7 +85,6 @@
 }
 
 .recomendaciones {
-<<<<<<< HEAD
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: black;
@@ -100,13 +92,6 @@
   box-sizing: border-box;
   margin-top: 50px;
   margin-bottom: 50px;
-=======
-  color: black;
-  background-color: #ffc6f6;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: 20px;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 }
 
 .recomendaciones p {
@@ -153,7 +138,6 @@
   width: 550px;
 }
 
-<<<<<<< HEAD
 .estilos-imagenes {
   padding: 30px;
   width: 80%;
@@ -165,8 +149,6 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-=======
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 @media (max-width: 576px) {
   .estilos-imagenes div {
     display: -webkit-box;
@@ -215,11 +197,7 @@
 
 .visita-nuestra {
   color: black;
-<<<<<<< HEAD
   background-color: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
-=======
-  background-color: #fcb6f1;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
 }
 
 .visita-nuestra p {
@@ -303,11 +281,7 @@
 
 /*--------------footer----------------*/
 .footer {
-<<<<<<< HEAD
   background: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
-=======
-  background: #ffc6f6;
->>>>>>> 90fb3bc4f743ec0e1adf5e6ccb5c29f298c7dda6
   color: black;
 }
 
