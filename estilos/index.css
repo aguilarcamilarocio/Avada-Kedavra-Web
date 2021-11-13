@@ -6,6 +6,10 @@
 }
 
 /*----------header----------*/
+.index-body {
+  overflow-x: hidden;
+}
+
 .fondo {
   background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;
@@ -58,6 +62,7 @@
   text-align: center;
   width: 100%;
   padding: 20px 10px 10px;
+  margin-bottom: 30px;
 }
 
 .busqueda input {
@@ -65,6 +70,7 @@
   border-radius: .25rem;
   color: black;
   background-color: white;
+  padding: 0px 50px 2px;
 }
 
 /*-----------------principal index-----------*/
@@ -197,7 +203,8 @@
 
 .visita-nuestra {
   color: black;
-  background-color: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
+  background: #ffcfe8;
+  margin-top: 30px;
 }
 
 .visita-nuestra p {
@@ -219,6 +226,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 .ver-mas a {
@@ -229,6 +238,9 @@
 .ver-mas button {
   background-color: white;
   border-color: #e665d2;
+  -webkit-box-shadow: 0px 1px 1px #de1dde;
+          box-shadow: 0px 1px 1px #de1dde;
+  border-radius: 3px;
   padding: 8px;
 }
 
@@ -281,8 +293,9 @@
 
 /*--------------footer----------------*/
 .footer {
-  background: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
   color: black;
+  background: radial-gradient(circle at 15.91% 9.37%, #ffd8e7 0, #ffcfe8 10%, #ffc6ea 20%, #ffbceb 30%, #ffb1ed 40%, #f6a7ef 50%, #e39ef2 60%, #ce97f5 70%, #b593f9 80%, #9890fd 90%, #768fff 100%);
+  margin-top: 40px;
 }
 
 .links {
