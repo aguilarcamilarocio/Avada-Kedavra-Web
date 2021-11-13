@@ -1,0 +1,40 @@
+.tienda-body {
+  background-image: url(../imagenes/fondo-contacto.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+.titulo-tienda {
+  padding: 30px 30px 30px;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.titulo-tienda a {
+  text-decoration: none;
+  color: black;
+}
+
+.busqueda-tienda {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tienda-cards div {
+  padding: 20px;
+}
+
+.tienda-cards h5 {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.tienda-cards p {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+/*# sourceMappingURL=tienda.css.map */
