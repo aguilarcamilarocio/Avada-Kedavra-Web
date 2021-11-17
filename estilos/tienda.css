@@ -1,3 +1,7 @@
+.tienda {
+  overflow-x: hidden;
+}
+
 .tienda-body {
   background-image: url(../imagenes/fondo-contacto.jpg);
   background-size: 100vw 100vh;

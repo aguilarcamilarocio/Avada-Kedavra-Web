@@ -5,6 +5,7 @@
 }
 
 /*----------header----------*/
+
 .index-body {
     overflow-x: hidden;
 }
@@ -140,49 +141,16 @@
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 576px) {
-    .estilos-imagenes div {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-    }
 
     img {
-        width: 100%;
-    }
-
-    .recomendaciones {
-        color: rgb(0, 0, 0);
-        background-color: #ffc6f6;
-        box-sizing: border-box;
-        margin-top: 20px;
-        width: 100%;
-
-        p {
-            font-size: 40px;
-            font-family: 'Roboto Slab', serif;
-            text-align: center;
-            justify-content: center;
-        }
-
-    }
-
-
-}
-
-@media (min-width: 992px) {
-    .estilos-imagenes div {
-        display: flex;
+        max-width: 70%;
+        min-width: 100%;
+        margin-bottom: 20px;
         justify-content: center;
-        padding: 10px;
-
-        img {
-            width: 70%;
-        }
-
+        margin-left: auto;
+        margin-right: auto;
     }
+
 
 }
 
