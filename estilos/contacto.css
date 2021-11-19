@@ -1,7 +1,15 @@
+.ya-nos {
+  background-color: #eaccf7;
+  width: 683px;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 40px;
+}
+
 .titulo-contacto {
   margin-top: 40px;
   margin-bottom: 40px;
-  color: black;
+  color: #000000;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -27,7 +35,7 @@
 }
 
 .formulario h1 {
-  color: black;
+  color: #000000;
   text-align: center;
   margin: 0;
   font-size: 30px;
@@ -49,5 +57,21 @@ input {
   min-height: 100px;
   max-height: 100px;
   max-width: 100%;
+}
+
+.no-olvides {
+  width: 683px;
+  background-color: #eaccf7;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.no-olvides p {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: black;
+  font-size: 20px;
 }
 /*# sourceMappingURL=contacto.css.map */
