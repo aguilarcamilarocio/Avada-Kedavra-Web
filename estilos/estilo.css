@@ -200,7 +200,7 @@
   color: #e665d2;
 }
 
-.ver-mas button {
+.ver-mas form {
   background-color: white;
   border-color: #e665d2;
   -webkit-box-shadow: 0px 1px 1px #de1dde;
@@ -308,15 +308,10 @@
 
 .envios-body {
   padding: 30px;
-  width: 80%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(0, 0, 0, 0.2);
-}
-
-.envios-body img {
-  min-width: 70%;
-  max-width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -332,9 +327,15 @@
           align-items: center;
 }
 
+.envios-body img {
+  min-width: 100%;
+  max-width: 100%;
+}
+
 .envios-body a {
-  margin-top: 20px;
-  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
   font-size: 20px;
   color: black;
   font-family: 'Roboto Slab', serif;
