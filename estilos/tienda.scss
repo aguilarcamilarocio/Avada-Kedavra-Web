@@ -22,7 +22,21 @@
     }
 }
 
+.titulo-tienda a:hover {
+    color: #c4a7ff;
 
+}
+
+.tienda-sub {
+    background-color: #f8f9fa;
+    font-size: 20px;
+    font-weight: bold;
+
+    h2:hover {
+        background-color: rgb(221, 221, 221);
+        color: rgb(0, 0, 0);
+    }
+}
 
 .busqueda-tienda {
     align-items: center;

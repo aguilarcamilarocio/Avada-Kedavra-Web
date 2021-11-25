@@ -12,6 +12,14 @@
   padding: 30px;
 }
 
+.sobre-nosotras:hover {
+  color: mediumpurple;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
 .nosotras {
   width: 70%;
   -webkit-box-pack: center;
@@ -32,7 +40,12 @@
 
 .nosotras p a {
   text-decoration: none;
-  color: #97278e;
+  color: mediumpurple;
+}
+
+.nosotras a:hover {
+  background-color: mediumpurple;
+  color: white;
 }
 
 .nosotras img {
