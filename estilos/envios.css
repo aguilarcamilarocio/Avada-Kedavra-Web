@@ -40,6 +40,33 @@
   max-width: 100%;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .envios-body {
+    padding: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .envios-body img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
 .envios-body a {
   margin-top: 30px;
   margin-bottom: 20px;

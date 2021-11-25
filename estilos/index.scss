@@ -34,22 +34,25 @@
     }
 }
 
+.titulo-principal a:hover {
+    color: #d4beff ;
+}
 
 .navbar-nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
 
-.navbar-nav a {
-    padding: 10px;
-    color: #000;
-    font-size: 16px;
-    font-family: 'Roboto Slab', serif;
+    a {
+        padding: 10px;
+        color: #000;
+        font-size: 16px;
+        font-family: 'Roboto Slab', serif;
+    }
 }
 
 .navbar-nav a:hover {
-    background: #ffc6f6;
+    background: #fad2f4;
     color: rgb(255, 255, 255);
 
 }
@@ -62,14 +65,19 @@
     width: 100%;
     padding: 20px 10px 10px;
     margin-bottom: 30px;
+
+    input {
+        border: 1px solid #ffc6f6;
+        border-radius: .25rem;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        padding: 0px 50px 2px;
+    }
 }
 
-.busqueda input {
-    border: 1px solid #ffc6f6;
-    border-radius: .25rem;
+.busqueda input:hover {
+    background-color:#decdff;
     color: rgb(0, 0, 0);
-    background-color: white;
-    padding: 0px 50px 2px;
 }
 
 /*-----------------principal index-----------*/
@@ -82,11 +90,11 @@
     width: 100%;
     text-align: center;
 
+    img {
+        width: 80px;
+    }
 }
 
-.titulos1 img {
-    width: 80px;
-}
 
 .recomendaciones {
     box-sizing: border-box;
@@ -102,6 +110,10 @@
         text-align: center;
         justify-content: center;
     }
+}
+
+.recomendaciones:hover {
+    color: white;
 }
 
 .bem__ejemplo {
@@ -128,10 +140,10 @@
 .index-imagenes {
     display: flex;
     flex-wrap: wrap;
-}
 
-.index-imagenes img {
-    width: 550px;
+    img {
+        width: 550px;
+    }
 }
 
 .estilos-imagenes {
@@ -170,31 +182,29 @@
 }
 
 .ver-mas {
-    font-size: 20px;
-    font-family: 'Roboto Slab', serif;
     display: flex;
     justify-content: center;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 40px;
 
+    a {
+        text-decoration: none;
+        text-align: center;
+        color: #e665d2;
+        background-color: white;
+        border-color: #e665d2;
+        width: 100px;
+        height: 35px;
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+    }
 }
 
-.ver-mas a {
-    text-decoration: none;
-    color: #e665d2;
+.ver-mas a:hover {
+    background-color: #b593f9;
+    color: white;
 }
-
-.ver-mas input {
-    background-color: white;
-    border-color: #e665d2;
-    box-shadow: 0px 1px 1px #de1dde;
-    border-radius: 3px;
-    padding: 8px;
-
-}
-
-
 
 /*--------------section----------------*/
 
@@ -215,6 +225,7 @@
 
 
 .suscribete {
+    margin-top: 20px;
     font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -232,6 +243,7 @@
 
 
 .descripcion-input {
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     padding: 10px

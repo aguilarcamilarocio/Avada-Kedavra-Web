@@ -1,19 +1,9 @@
-$ancho: 1366px;
-$lavender: #eaccf7;
-$black: #000000;
 
-.ya-nos {
-    background-color:$lavender;
-    width: $ancho/2;
-    font-size: 20px;
-    color: $black;
-    margin-top: 40px;
-}
 
 .titulo-contacto {
     margin-top: 40px;
     margin-bottom: 40px;
-    color: $black;
+    color: black;
     font-family: 'Roboto Slab', serif;
 
     h1 {
@@ -26,6 +16,7 @@ $black: #000000;
     background-image: url(../imagenes/fondo-contacto.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .formulario {
@@ -37,7 +28,7 @@ $black: #000000;
     margin-top: 30px;
 
     h1 {
-        color: $black;
+        color: black;
         text-align: center;
         margin: 0;
         font-size: 30px;
@@ -62,18 +53,4 @@ input {
     max-width: 100%;
 }
 
-
-.no-olvides {
-    width: $ancho/2;
-    background-color: $lavender;
-    margin-top: 30px;
-    justify-content: center;
-    
-    p {
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    }
-}
 

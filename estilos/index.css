@@ -33,6 +33,10 @@
   color: white;
 }
 
+.titulo-principal a:hover {
+  color: #d4beff;
+}
+
 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,7 +55,7 @@
 }
 
 .navbar-nav a:hover {
-  background: #ffc6f6;
+  background: #fad2f4;
   color: white;
 }
 
@@ -71,6 +75,11 @@
   color: black;
   background-color: white;
   padding: 0px 50px 2px;
+}
+
+.busqueda input:hover {
+  background-color: #decdff;
+  color: black;
 }
 
 /*-----------------principal index-----------*/
@@ -107,6 +116,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.recomendaciones:hover {
+  color: white;
 }
 
 .bem__ejemplo {
@@ -182,8 +195,6 @@
 }
 
 .ver-mas {
-  font-size: 20px;
-  font-family: 'Roboto Slab', serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,16 +208,19 @@
 
 .ver-mas a {
   text-decoration: none;
+  text-align: center;
   color: #e665d2;
-}
-
-.ver-mas input {
   background-color: white;
   border-color: #e665d2;
-  -webkit-box-shadow: 0px 1px 1px #de1dde;
-          box-shadow: 0px 1px 1px #de1dde;
-  border-radius: 3px;
-  padding: 8px;
+  width: 100px;
+  height: 35px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.ver-mas a:hover {
+  background-color: #b593f9;
+  color: white;
 }
 
 /*--------------section----------------*/
@@ -227,6 +241,7 @@
 }
 
 .suscribete {
+  margin-top: 20px;
   font-size: 35px;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -242,6 +257,7 @@
 }
 
 .descripcion-input {
+  margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
